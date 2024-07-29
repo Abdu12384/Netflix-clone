@@ -1,0 +1,332 @@
+body{
+   margin: 0;
+   font-family: sans-serif;
+   
+}
+.main-header{
+    width: 100%;
+    height: 640px;
+    background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url(Netflics-images/netflix.jpg) ;
+    background-size: cover;
+    background-size: 1700px;
+    background-position: center -200px;  
+    position: relative;  
+    
+}
+.top-div{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.top-div1{
+    width: 50%;
+    height: 100%;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.top-div2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 420px;
+    
+}
+.Netflix-logo{
+    width: 130px;
+     
+}
+.language{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border: solid;
+    border-width: 0.15px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.English-text{
+    width: 75px;
+    height: 27px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    
+}
+.icon{
+    width: 20px;
+    margin-left: 8px;
+    color: white;
+
+}
+.sign{
+    width: 70px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    background-color:rgb(193, 17, 25);
+    border: none;
+    border-radius: 5px;
+}
+.button-div{
+    display: flex;
+    
+}
+.center-div{
+    width: 900px;
+    height: 250px;
+    position:absolute;
+    left: 200px;
+    top: 250px;
+    
+}
+.unlimited{
+    font-size: 43px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.Watch-text{ 
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    
+}
+.Ready-text{ 
+    font-size: 19px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+    margin-bottom: 15px;
+}
+.login{
+    width: 560px;
+    height: 70px;
+    margin-left: 170px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.email{
+    width: 340px;
+    height: 43px;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    border-width: 0.15px;
+    border-color: gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.Get{
+    width: 195px;
+    height: 50px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: start;
+    padding-left: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+
+
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+    
+}
+.about-main{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 8px;
+    border-color: rgb(91, 84, 84);
+
+}
+.head-Fre{
+    width: 1000px;
+    height: 130px;
+    
+
+}
+.Frequntly{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+.button1{
+    width: 1000px;
+    height: 75px;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(45, 45, 45);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+    position: relative;
+    
+    
+}
+.plus-icon{
+    width: 50px;
+
+}
+.btn-icon{
+ display: flex;
+ justify-content: end;
+ position: absolute;
+ right: 15px;
+}
+.bottom-get{
+    width: 680px;
+    height: 150px;
+    
+}
+.ready-text{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: white;
+
+
+}
+.login-last-bottom{
+    width: 560px;
+    height: 70px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.email{
+    width: 340px;
+    height: 43px;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    border-width: 0.15px;
+    border-color: gray;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+
+}
+.Get{
+    width: 195px;
+    height: 50px;
+    background-color: rgb(229, 9, 20);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: start;
+    padding-left: 20px;
+    border: none;
+    border-radius: 3px;
+    margin-left: 10px;
+
+
+}
+.arrow{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 15px;
+}
+.footer{
+    width: 100%;
+    height: 380px;
+    background-color: black;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(91, 84, 84);
+    display: flex;
+    justify-content: center;
+
+}
+.second-footer{
+    width: 1000px;
+    height: 300px;
+    margin-top: 80px;
+    display: flex;
+    column-gap: 50px;
+}
+.link-box{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+
+}
+.link-disgn{
+    color: gray;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+
+.bottom-language{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    border: solid;
+    border-width: 0.15px;
+    border-color: gainsboro;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.bottom-English-text{
+    width: 75px;
+    height: 27px;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    border: none;
+    
+}
+.bottom-icon{
+    width: 20px;
+    margin-left: 8px;
+    color: white;
+
+}
+.link-disgn1{
+    color: gray;
+    font-size: 14px;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+
+
+
+

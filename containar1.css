@@ -1,0 +1,50 @@
+.containar-1{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(3, 3, 3);
+    display: flex;
+    justify-content: center;
+    border-top: solid;
+    border-width: 8px;
+    border-color: rgb(91, 84, 84);
+}
+.TV-text{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.TV{
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.TV-logo{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    
+}
+.watchon-text{
+    font-size: 22px;
+    margin-top: 0;
+    color: white;
+    margin-left: 114px;
+}
+.tv-img{
+    width: 500px;
+    
+}
+.video{
+    width: 370px;
+    position: absolute;
+    left: 65px;
+    top: 140px;   
+}
