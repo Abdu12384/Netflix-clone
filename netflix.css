@@ -6,7 +6,7 @@ body{
 .main-header{
     width: 100%;
     height: 640px;
-    background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url(Netflics-images/bagrond.jpg) ;
+    background-image:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.7)),url(Netflics-images/netflix.jpg) ;
     background-size: cover;
     background-size: 1700px;
     background-position: center -200px;  
